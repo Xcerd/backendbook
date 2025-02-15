@@ -4,7 +4,7 @@ const connection = await mysql.createConnection({
   host: "trolley.proxy.rlwy.net",  // ✅ FIXED - Now it's a valid string
   user: "root",
   password: "OmksFVATaWEHnewLXiXmQPMfHJmexZye",
-  database: "railway"
+  database: "railway",
   port: "3306"
 });
 
